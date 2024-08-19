@@ -1,0 +1,41 @@
+#ec2 information
+instance_type: t2.medium
+security_group_name: "devops-sg"
+id_token: "i-085d3fc209d7efa53"
+host_group_name: "server"
+aim_centos7: "ami-00543d76373f96fe7"
+key_name: "savant"
+region: "us-east-1"
+host_group : "server"
+subnet : "subnet-0030838b4736091b5"
+
+
+# file roles/python/vars/main.yml
+
+python3_packages:
+  - ansible
+  - biopython
+  - bx-python
+  - CrossMap
+#  - gee
+  - h5py
+  - illumiprocessor
+  - ipython
+  - joblib
+  - jupyter
+#  - kernlab
+  - matplotlib
+  - multiqc
+  - numpy
+  - picard_tool
+  - pssh
+  - pygp
+  - pysam
+#  - R2GUESS
+  - samtools_tool
+  - scipy
+  - sklearn
+  - snakemake
+  - statsmodels
+  - tensorflow
+  - umi_tools
