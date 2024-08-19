@@ -3,7 +3,7 @@
 L'objectif de ce projet est de vous montrer comment est ce que nous pouvons
 provisionner des machines sur aws à l'aide de Ansible , ensuite deployer une application conteneuriser dans notre machine.
 
-Pour realiser ce prjet il vous faudra realiser un certains nombres d'etapes:
+Pour realiser ce projet il vous faudra realiser un certains nombres d'etapes:
 
 Prerequis:
 - Creation d'un compte AWS
